@@ -1,6 +1,8 @@
 require "offsite_payments_allpay/version"
+require "offsite_payments"
 
-module OffsitePaymentsAllpay
-  class Error < StandardError; end
-  # Your code goes here...
+module OffsitePayments
+  module Integrations
+    autoload :Allpay, "offsite_payments/integrations/allpay"
+  end
 end
