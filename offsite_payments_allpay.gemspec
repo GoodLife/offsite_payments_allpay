@@ -5,8 +5,8 @@ require "offsite_payments_allpay/version"
 Gem::Specification.new do |spec|
   spec.name          = "offsite_payments_allpay"
   spec.version       = OffsitePaymentsAllpay::VERSION
-  spec.authors       = ["stan"]
-  spec.email         = ["solve153@gmail.com"]
+  spec.authors       = ["xwaynec", "hrs", "stan"]
+  spec.email         = ["xwaynec@gmail.com", "hrs113355@gmail.com", "solve153@gmail.com"]
 
   spec.summary       = %q{OffsitePayments for Allpay, a Taiwan based payment gateway}
   spec.description   = %q{OffsitePayments for Allpay}
